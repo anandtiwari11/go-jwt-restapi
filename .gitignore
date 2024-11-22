@@ -1,0 +1,12 @@
+# Ignore the database file if it's SQLite or temporary files
+*.db
+*.sqlite
+
+# Ignore Go binaries
+/bin
+/*.exe
+/*.out
+
+# Ignore IDE files
+.idea/
+.vscode/
